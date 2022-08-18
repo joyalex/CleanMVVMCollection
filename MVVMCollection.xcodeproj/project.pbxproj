@@ -19,10 +19,10 @@
 		FA9FB3FD289DD792008412BC /* SpreadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB3FC289DD792008412BC /* SpreadingViewController.swift */; };
 		FA9FB40028A00166008412BC /* CollectionDomainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB3FF28A00166008412BC /* CollectionDomainModel.swift */; };
 		FA9FB40728A0130E008412BC /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB40628A0130E008412BC /* CollectionViewModel.swift */; };
-		FA9FB40A28A01BC8008412BC /* UITableView+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB40928A01BC8008412BC /* UITableView+TypeErasure.swift */; };
+		FA9FB40A28A01BC8008412BC /* UITableViewCell+TypeErasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB40928A01BC8008412BC /* UITableViewCell+TypeErasure.swift */; };
 		FA9FB41928A196FB008412BC /* CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB41828A196FB008412BC /* CollectionDataSource.swift */; };
 		FA9FB41E28A57A5B008412BC /* LBCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB41D28A57A5B008412BC /* LBCollectionViewModel.swift */; };
-		FA9FB42028A57C4D008412BC /* UITableView+LateBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB41F28A57C4D008412BC /* UITableView+LateBinding.swift */; };
+		FA9FB42028A57C4D008412BC /* UITableViewCell+LateBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB41F28A57C4D008412BC /* UITableViewCell+LateBinding.swift */; };
 		FA9FB42228A57E24008412BC /* LateBindingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB42128A57E24008412BC /* LateBindingDataSource.swift */; };
 		FA9FB42528A57ED4008412BC /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB42428A57ED4008412BC /* Array+Extensions.swift */; };
 		FA9FB42728A59BE5008412BC /* RedBlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB42628A59BE5008412BC /* RedBlueViewController.swift */; };
@@ -35,6 +35,11 @@
 		FA9FB43828A7D08A008412BC /* TemperatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB43728A7D08A008412BC /* TemperatureCell.swift */; };
 		FA9FB43A28A91346008412BC /* LateBindingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB43928A91346008412BC /* LateBindingDelegate.swift */; };
 		FA9FB43D28A93202008412BC /* ItemDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB43C28A93202008412BC /* ItemDataSource.swift */; };
+		FA9FB43F28AEAD0C008412BC /* CollectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB43E28AEAD0C008412BC /* CollectionDelegate.swift */; };
+		FA9FB44128AEAD9A008412BC /* LBItemViewModelWithAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB44028AEAD9A008412BC /* LBItemViewModelWithAction.swift */; };
+		FA9FB44728AEB339008412BC /* ItemViewModelWithAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB44628AEB339008412BC /* ItemViewModelWithAction.swift */; };
+		FA9FB44928AEBB47008412BC /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB44828AEBB47008412BC /* BaseTableCell.swift */; };
+		FA9FB44B28AEBCF7008412BC /* DistanceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9FB44A28AEBCF7008412BC /* DistanceCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,10 +56,10 @@
 		FA9FB3FC289DD792008412BC /* SpreadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpreadingViewController.swift; sourceTree = "<group>"; };
 		FA9FB3FF28A00166008412BC /* CollectionDomainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDomainModel.swift; sourceTree = "<group>"; };
 		FA9FB40628A0130E008412BC /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
-		FA9FB40928A01BC8008412BC /* UITableView+TypeErasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+TypeErasure.swift"; sourceTree = "<group>"; };
+		FA9FB40928A01BC8008412BC /* UITableViewCell+TypeErasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+TypeErasure.swift"; sourceTree = "<group>"; };
 		FA9FB41828A196FB008412BC /* CollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDataSource.swift; sourceTree = "<group>"; };
 		FA9FB41D28A57A5B008412BC /* LBCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBCollectionViewModel.swift; sourceTree = "<group>"; };
-		FA9FB41F28A57C4D008412BC /* UITableView+LateBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+LateBinding.swift"; sourceTree = "<group>"; };
+		FA9FB41F28A57C4D008412BC /* UITableViewCell+LateBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+LateBinding.swift"; sourceTree = "<group>"; };
 		FA9FB42128A57E24008412BC /* LateBindingDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LateBindingDataSource.swift; sourceTree = "<group>"; };
 		FA9FB42428A57ED4008412BC /* Array+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
 		FA9FB42628A59BE5008412BC /* RedBlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBlueViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +72,11 @@
 		FA9FB43728A7D08A008412BC /* TemperatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCell.swift; sourceTree = "<group>"; };
 		FA9FB43928A91346008412BC /* LateBindingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LateBindingDelegate.swift; sourceTree = "<group>"; };
 		FA9FB43C28A93202008412BC /* ItemDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDataSource.swift; sourceTree = "<group>"; };
+		FA9FB43E28AEAD0C008412BC /* CollectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDelegate.swift; sourceTree = "<group>"; };
+		FA9FB44028AEAD9A008412BC /* LBItemViewModelWithAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LBItemViewModelWithAction.swift; sourceTree = "<group>"; };
+		FA9FB44628AEB339008412BC /* ItemViewModelWithAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModelWithAction.swift; sourceTree = "<group>"; };
+		FA9FB44828AEBB47008412BC /* BaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
+		FA9FB44A28AEBCF7008412BC /* DistanceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,10 +145,11 @@
 		FA9FB40528A012FF008412BC /* CommonCode */ = {
 			isa = PBXGroup;
 			children = (
-				FA9FB40928A01BC8008412BC /* UITableView+TypeErasure.swift */,
+				FA9FB44228AEAEAB008412BC /* Cell */,
+				FA9FB44528AEB317008412BC /* TableViewAdapters */,
 				FA9FB40628A0130E008412BC /* CollectionViewModel.swift */,
 				FA9FB43C28A93202008412BC /* ItemDataSource.swift */,
-				FA9FB41828A196FB008412BC /* CollectionDataSource.swift */,
+				FA9FB44628AEB339008412BC /* ItemViewModelWithAction.swift */,
 			);
 			path = CommonCode;
 			sourceTree = "<group>";
@@ -146,10 +157,10 @@
 		FA9FB41A28A57088008412BC /* 2 LateBinding */ = {
 			isa = PBXGroup;
 			children = (
-				FA9FB42B28A5A47C008412BC /* Cells */,
 				FA9FB41C28A57A05008412BC /* Common */,
 				FA9FB42628A59BE5008412BC /* RedBlueViewController.swift */,
 				FA9FB42828A59DAA008412BC /* RedBlueViewModel.swift */,
+				FA9FB42B28A5A47C008412BC /* Cells */,
 			);
 			path = "2 LateBinding";
 			sourceTree = "<group>";
@@ -165,10 +176,10 @@
 		FA9FB41C28A57A05008412BC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				FA9FB44428AEB2E4008412BC /* Cell */,
+				FA9FB44328AEB2B9008412BC /* TableViewAdapters */,
 				FA9FB41D28A57A5B008412BC /* LBCollectionViewModel.swift */,
-				FA9FB41F28A57C4D008412BC /* UITableView+LateBinding.swift */,
-				FA9FB42128A57E24008412BC /* LateBindingDataSource.swift */,
-				FA9FB43928A91346008412BC /* LateBindingDelegate.swift */,
+				FA9FB44028AEAD9A008412BC /* LBItemViewModelWithAction.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -204,10 +215,10 @@
 		FA9FB43228A7C8FD008412BC /* 3 EarlyBinding */ = {
 			isa = PBXGroup;
 			children = (
-				FA9FB43B28A92B83008412BC /* Cells */,
 				FA9FB40528A012FF008412BC /* CommonCode */,
 				FA9FB43328A7CE31008412BC /* BlackWhiteViewController.swift */,
 				FA9FB43528A7CE68008412BC /* BlackWhiteViewModel.swift */,
+				FA9FB43B28A92B83008412BC /* Cells */,
 			);
 			path = "3 EarlyBinding";
 			sourceTree = "<group>";
@@ -216,8 +227,44 @@
 			isa = PBXGroup;
 			children = (
 				FA9FB43728A7D08A008412BC /* TemperatureCell.swift */,
+				FA9FB44A28AEBCF7008412BC /* DistanceCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		FA9FB44228AEAEAB008412BC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA9FB44828AEBB47008412BC /* BaseTableCell.swift */,
+				FA9FB40928A01BC8008412BC /* UITableViewCell+TypeErasure.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FA9FB44328AEB2B9008412BC /* TableViewAdapters */ = {
+			isa = PBXGroup;
+			children = (
+				FA9FB42128A57E24008412BC /* LateBindingDataSource.swift */,
+				FA9FB43928A91346008412BC /* LateBindingDelegate.swift */,
+			);
+			path = TableViewAdapters;
+			sourceTree = "<group>";
+		};
+		FA9FB44428AEB2E4008412BC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FA9FB41F28A57C4D008412BC /* UITableViewCell+LateBinding.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FA9FB44528AEB317008412BC /* TableViewAdapters */ = {
+			isa = PBXGroup;
+			children = (
+				FA9FB41828A196FB008412BC /* CollectionDataSource.swift */,
+				FA9FB43E28AEAD0C008412BC /* CollectionDelegate.swift */,
+			);
+			path = TableViewAdapters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,17 +343,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9FB44B28AEBCF7008412BC /* DistanceCell.swift in Sources */,
 				FA9FB3F5289D9794008412BC /* SimplePageViewModel.swift in Sources */,
 				FA9FB3FA289D9C6D008412BC /* SimpleDomainModel.swift in Sources */,
 				FA9FB42928A59DAA008412BC /* RedBlueViewModel.swift in Sources */,
 				FA9FB3FD289DD792008412BC /* SpreadingViewController.swift in Sources */,
+				FA9FB43F28AEAD0C008412BC /* CollectionDelegate.swift in Sources */,
 				FA9FB42528A57ED4008412BC /* Array+Extensions.swift in Sources */,
+				FA9FB44128AEAD9A008412BC /* LBItemViewModelWithAction.swift in Sources */,
 				FA9FB42228A57E24008412BC /* LateBindingDataSource.swift in Sources */,
 				FA9FB40028A00166008412BC /* CollectionDomainModel.swift in Sources */,
 				FA9FB3E2289D963E008412BC /* ViewController.swift in Sources */,
 				FA9FB43A28A91346008412BC /* LateBindingDelegate.swift in Sources */,
 				FA9FB42728A59BE5008412BC /* RedBlueViewController.swift in Sources */,
-				FA9FB40A28A01BC8008412BC /* UITableView+TypeErasure.swift in Sources */,
+				FA9FB40A28A01BC8008412BC /* UITableViewCell+TypeErasure.swift in Sources */,
 				FA9FB43128A7C2C2008412BC /* BadCell.swift in Sources */,
 				FA9FB43628A7CE68008412BC /* BlackWhiteViewModel.swift in Sources */,
 				FA9FB43428A7CE31008412BC /* BlackWhiteViewController.swift in Sources */,
@@ -315,10 +365,12 @@
 				FA9FB42D28A5A4A6008412BC /* RedCell.swift in Sources */,
 				FA9FB3F3289D972F008412BC /* SimpleViewController.swift in Sources */,
 				FA9FB3E0289D963E008412BC /* SceneDelegate.swift in Sources */,
+				FA9FB44728AEB339008412BC /* ItemViewModelWithAction.swift in Sources */,
 				FA9FB41928A196FB008412BC /* CollectionDataSource.swift in Sources */,
+				FA9FB44928AEBB47008412BC /* BaseTableCell.swift in Sources */,
 				FA9FB40728A0130E008412BC /* CollectionViewModel.swift in Sources */,
 				FA9FB42F28A5A4BA008412BC /* BlueCell.swift in Sources */,
-				FA9FB42028A57C4D008412BC /* UITableView+LateBinding.swift in Sources */,
+				FA9FB42028A57C4D008412BC /* UITableViewCell+LateBinding.swift in Sources */,
 				FA9FB43828A7D08A008412BC /* TemperatureCell.swift in Sources */,
 				FA9FB41E28A57A5B008412BC /* LBCollectionViewModel.swift in Sources */,
 			);

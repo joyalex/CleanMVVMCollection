@@ -44,7 +44,7 @@ enum PresentationFactory {
     static func makeSimplePageViewController() -> SimplePageViewController {
         let model = SimpleDomainModel()
         
-        let viewModel = model // FormatedSimplePageViewModelImpl(model: model)
+        let viewModel = FormatedSimplePageViewModelImpl(model: model)
         
         return SimplePageViewController(viewModel: viewModel)
     }
@@ -52,6 +52,7 @@ enum PresentationFactory {
     static func makeLateBindingController() -> UIViewController {
         let model = CollectionDomainModel(name: "LateBinding model")
         
+        // let viewModel = model
         let viewModel = RedBlueViewModelImpl(model: model)
         
         return UINavigationController(rootViewController: RedBlueViewController(viewModel: viewModel))
@@ -60,7 +61,8 @@ enum PresentationFactory {
     static func makeSpecificTableViewController() -> UINavigationController {
         let model = CollectionDomainModel(name: "First model")
 
-        let viewModel = model
+        // let viewModel = model
+        let viewModel = BlackWhiteViewModelImpl(model)
 
         return UINavigationController(rootViewController: BlackWhiteViewController(viewModel: viewModel))
     }

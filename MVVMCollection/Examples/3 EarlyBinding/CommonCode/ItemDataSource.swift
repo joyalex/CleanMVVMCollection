@@ -10,9 +10,9 @@ public protocol ItemDataSource {
     static var id: String { get }
 }
 extension ItemDataSource {
-    static var id: String { "\(Self.self)" }
+    public static var id: String { "\(Self.self)" }
 }
 
-struct GeneralItemSource<VM>: ItemDataSource {
+public struct GeneralItemSource<VM>: ItemDataSource {
     let viewModel: VM
 }

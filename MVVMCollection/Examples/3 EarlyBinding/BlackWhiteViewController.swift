@@ -10,10 +10,12 @@ import UIKit
 class BlackWhiteViewController: UITableViewController {
     private var viewModel: BlackWhiteViewModel
     private let dataSource: CollectionDataSource
+    private let delegate: CollectionDelegate
     
     init(viewModel: BlackWhiteViewModel) {
         self.viewModel = viewModel
         self.dataSource = CollectionDataSource(viewModel: viewModel)
+        self.delegate = CollectionDelegate(viewModel: viewModel)
         
         super.init(nibName: nil, bundle: nil)
         setupTabPresentation()
@@ -27,6 +29,7 @@ class BlackWhiteViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupDataSource()
+        tableView.delegate = delegate
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -38,7 +41,8 @@ class BlackWhiteViewController: UITableViewController {
 // MARK: Setup
 extension BlackWhiteViewController {
     func setupDataSource() {
-        dataSource.register(manualLayoutCells: [TemperatureCell.self])
+        dataSource.register(manualLayoutCells: [TemperatureCell.self,
+                                                DistanceCell.self])
         tableView.setup(collectionDataSource: dataSource)
     }
     

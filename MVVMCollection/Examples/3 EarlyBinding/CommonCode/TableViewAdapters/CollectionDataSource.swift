@@ -59,11 +59,11 @@ extension CollectionDataSource: UITableViewDataSource {
 // MARK: Header/Footer UITableViewDataSource
 extension CollectionDataSource {
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        (viewModel.itemSections[safe: section] as? HeadedItemGroupViewModel)?.header
+        (viewModel.itemSections[safe: section] as? HeadedSectionViewModel)?.header
     }
     
     func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-        (viewModel.itemSections[safe: section] as? HeadedItemGroupViewModel)?.footer
+        (viewModel.itemSections[safe: section] as? HeadedSectionViewModel)?.footer
     }
 }
 

@@ -8,8 +8,8 @@
 import UIKit
 
 // MARK:  View Model Layer
-/// Больше явных зависимостей
-/// Но все зашивается в Template
+/// Плюс одна явная зависимость
+/// Но она зашивается в Template
 protocol TemperatureItemViewModel: ItemViewModel {
     var text: String { get }
 }

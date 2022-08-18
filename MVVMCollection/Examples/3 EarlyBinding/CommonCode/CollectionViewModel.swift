@@ -19,7 +19,7 @@ public protocol SectionViewModel {
     var items: [ItemViewModel] { get }
 }
 
-public protocol HeadedItemGroupViewModel: SectionViewModel {
+public protocol HeadedSectionViewModel: SectionViewModel {
     var header: String? { get }
     var footer: String? { get }
 }
@@ -36,7 +36,7 @@ public struct DefaultSectionViewModel: SectionViewModel {
     public var items: [ItemViewModel]
 }
 
-public struct DefaultHeadedItemSectionViewModel: HeadedItemGroupViewModel {
+public struct DefaultHeadedItemSectionViewModel: HeadedSectionViewModel {
     public var header: String?
     public var footer: String?
     
